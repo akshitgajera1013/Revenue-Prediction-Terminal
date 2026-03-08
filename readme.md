@@ -3,11 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
 ![Random Forest](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange?style=for-the-badge)
 ![Plotly](https://img.shields.io/badge/Data%20Viz-Plotly-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 
 An advanced, monolithic Python application built for digital retail analytics and shopper intent forecasting. This system leverages a highly optimized **Random Forest Classifier** to process 13 distinct website session vectors, accurately predicting whether a user's browsing session will culminate in a financial transaction (Revenue). 
-
----
 
 ## 🧠 System Architecture & Capabilities
 
@@ -35,7 +33,6 @@ Executes a 100-iteration stochastic mathematical simulation to model cohort sess
 ### 6. Secure Data Export (JSON / CSV)
 Generates an official Purchase Dossier tagged with a unique cryptographic Session ID. Enables base64-encoded, secure local downloads of the entire inference payload in both programmatic (JSON) and ledger (CSV) formats for database integration.
 
----
 
 ## 🛠️ Technical Stack
 
@@ -49,24 +46,29 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 
 ## 📂 Repository Structure
 
-```text
-├── app.py                  # Main monolithic Python application interface (1,200+ lines)
-├── model.pkl               # Serialized Random Forest Classifier model
-├── encoder.pkl             # Serialized LabelEncoder mapping
-├── requirements.txt        # Python package dependencies
-└── README.md               # System documentation
+├── app.py
+
+├── model.pkl   
+
+├── encoder.pkl  
+
+├── requirements.txt   
+
+└── README.md               
 
 
 ⚙️ Installation & Deployment
 1. Clone the Repository
-git clone [https://github.com/yourusername/ecommerce-revenue-prediction.git](https://github.com/yourusername/ecommerce-revenue-prediction.git)
+ 
+2. git clone [https://github.com/yourusername/ecommerce-revenue-prediction.git](https://github.com/akshitgajera1013/ecommerce-revenue-prediction.git)
 
 cd ecommerce-revenue-prediction
 
-2. Provision the Virtual Environment & Install Dependencies
-pip install -r requirements.txt
+3. Provision the Virtual Environment & Install Dependencies
+   
+4. pip install -r requirements.txt
 
-3. Initialize the Application Server
+5. Initialize the Application Server
 python -m streamlit run app.py
 
 
