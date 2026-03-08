@@ -60,7 +60,7 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 ⚙️ Installation & Deployment
 1. Clone the Repository
  
-2. git clone [https://github.com/akshitgajera1013/ecommerce-revenue-prediction.git](https://github.com/akshitgajera1013/ecommerce-revenue-prediction.git)
+2. git clone [https://github.com/akshitgajera1013/ecommerce-revenue-prediction.git](https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git)
 
 cd ecommerce-revenue-prediction
 
