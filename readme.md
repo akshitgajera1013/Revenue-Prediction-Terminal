@@ -38,7 +38,7 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 
 ## 🛠️ Technical Stack
 
-* **Core Logic & Computation:** `Python 3.x`, `numpy`
+* **Core Logic & Computation:** 
 * **Data Processing & Pipelines:** `pandas`
 * **Machine Learning Architecture:** `scikit-learn` (Random Forest Classifier, Label Encoding)
 * **Interactive Data Visualization:** `plotly.express`, `plotly.graph_objects`
