@@ -152,16 +152,17 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 
 ⚙️ Installation & Deployment
      1. Clone the Repository
-      
-     2. git clone [https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git](https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git)
+     
+     git clone [https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git](https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git)
      
      cd ecommerce-revenue-prediction
      
-     3. Provision the Virtual Environment & Install Dependencies
+     Provision the Virtual Environment & Install Dependencies
         
-     4. pip install -r requirements.txt
+     2. pip install -r requirements.txt
      
-     5. Initialize the Application Server
+     3. Initialize the Application Server
+     
      python -m streamlit run app.py
 
 
