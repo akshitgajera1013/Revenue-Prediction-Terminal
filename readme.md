@@ -130,7 +130,7 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 
 1.Clone the Repository
 
-2. Move Directory 
+2.Move Directory 
 
 3.Install Dependencies
 
