@@ -12,15 +12,10 @@ It is commonly used for classification problems in machine learning, particularl
 Dataset Overview
 
      Property	Value
-     
      Total Records	12,330
-     
      Total Features	18
-     
      Target Variable	Revenue
-     
      Task Type	Binary Classification
-     
      Target Variable
 
 Revenue
@@ -28,35 +23,25 @@ Revenue
  This column indicates whether the user completed a purchase.
 
            Value	Meaning
-           
            False	No purchase made
-           
            True	Purchase completed
 
 Distribution:
 
       False (No Purchase) : 10,422 sessions
-      
       True (Purchase) : 1,908 sessions
-
+      
 This indicates the dataset is imbalanced, with fewer purchase events.
 
 Feature Description
 
       Page Interaction Features
-      
       Feature	Description
-      
       Administrative	Number of administrative pages visited
-      
       Administrative_Duration	Time spent on administrative pages
-      
       Informational	Number of informational pages visited
-      
       Informational_Duration	Time spent on informational pages
-      
       ProductRelated	Number of product-related pages visited
-      
       ProductRelated_Duration	Time spent on product pages
  
 Website Behavior Metrics
@@ -64,31 +49,22 @@ Website Behavior Metrics
  Feature	Description
  
       BounceRates	Percentage of visitors leaving after viewing one page
-      
       ExitRates	Percentage of exits from the website
-      
       PageValues	Average value of pages visited before purchase
-      
       SpecialDay	Indicates closeness to special days (like holidays)
  
 Visitor and Technical Information
      
       Feature	Description
-      
       Month	Month of the visit
-      
       OperatingSystems	Operating system used by the visitor
-      
       Browser	Browser used
-      
       Region	Geographic region
-      
       TrafficType	Traffic source type
  
 Visitor Characteristics
 
       Feature	Description
-      
       VisitorType	Type of visitor (Returning, New, Other)
       
  Weekend	Whether the session occurred on weekend
@@ -151,19 +127,20 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 
 
 ⚙️ Installation & Deployment
-     1. Clone the Repository
-     
+
+Clone the Repository
+
+Move 
+
+Install Dependencies
+
+Run App
+ 
      git clone https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git
-     
      cd ecommerce-revenue-prediction
-     
-     Provision the Virtual Environment & Install Dependencies
-        
-     2. pip install -r requirements.txt
-     
-     3. Initialize the Application Server
-     
-     python -m streamlit run app.py
+     pip install -r requirements.txt
+     Initialize the Application Server
+     python -m streamlit run app.py or streamlit run app.py
 
 
 ⚠️ Data Privacy Disclaimer
