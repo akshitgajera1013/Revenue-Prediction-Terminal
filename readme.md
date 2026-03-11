@@ -2,6 +2,67 @@
 
 Deployment Link :- https://revenue-prediction-terminal.streamlit.app/
 
+About Dataset :-
+This dataset contains session-level information about users visiting an online shopping website. The goal of the dataset is to predict whether a visitor will generate revenue (make a purchase) or not during a browsing session.
+
+The dataset includes various behavioral and technical attributes such as the number of pages visited, time spent on pages, bounce rates, traffic sources, visitor type, and other session metrics.
+
+It is commonly used for classification problems in machine learning, particularly for predicting customer purchase intent.
+
+Dataset Overview
+ Property	Value
+ Total Records	12,330
+ Total Features	18
+ Target Variable	Revenue
+ Task Type	Binary Classification
+ Target Variable
+
+Revenue
+
+ This column indicates whether the user completed a purchase.
+
+ Value	Meaning
+ False	No purchase made
+ True	Purchase completed
+
+Distribution:
+
+ False (No Purchase) : 10,422 sessions
+ 
+ True (Purchase) : 1,908 sessions
+
+This indicates the dataset is imbalanced, with fewer purchase events.
+
+Feature Description
+ Page Interaction Features
+ Feature	Description
+ Administrative	Number of administrative pages visited
+ Administrative_Duration	Time spent on administrative pages
+ Informational	Number of informational pages visited
+ Informational_Duration	Time spent on informational pages
+ ProductRelated	Number of product-related pages visited
+ ProductRelated_Duration	Time spent on product pages
+ 
+Website Behavior Metrics
+ Feature	Description
+ BounceRates	Percentage of visitors leaving after viewing one page
+ ExitRates	Percentage of exits from the website
+ PageValues	Average value of pages visited before purchase
+ SpecialDay	Indicates closeness to special days (like holidays)
+ 
+Visitor and Technical Information
+ Feature	Description
+ Month	Month of the visit
+ OperatingSystems	Operating system used by the visitor
+ Browser	Browser used
+ Region	Geographic region
+ TrafficType	Traffic source type
+ 
+Visitor Characteristics
+ Feature	Description
+ VisitorType	Type of visitor (Returning, New, Other)
+ Weekend	Whether the session occurred on weekend
+
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
 ![Random Forest](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange?style=for-the-badge)
 ![Plotly](https://img.shields.io/badge/Data%20Viz-Plotly-purple?style=for-the-badge)
