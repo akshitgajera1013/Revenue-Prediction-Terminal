@@ -128,13 +128,13 @@ Generates an official Purchase Dossier tagged with a unique cryptographic Sessio
 
 ⚙️ Installation & Deployment
 
-Clone the Repository
+1.Clone the Repository
 
-Move 
+2. Move Directory 
 
-Install Dependencies
+3.Install Dependencies
 
-Run App
+4.Run App
  
      git clone https://github.com/akshitgajera1013/Revenue-Prediction-Terminal.git
      cd ecommerce-revenue-prediction
