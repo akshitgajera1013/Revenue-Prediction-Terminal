@@ -11,17 +11,17 @@ It is commonly used for classification problems in machine learning, particularl
 
 Dataset Overview
 
- Property	Value
- 
- Total Records	12,330
- 
- Total Features	18
- 
- Target Variable	Revenue
- 
- Task Type	Binary Classification
- 
- Target Variable
+     Property	Value
+     
+     Total Records	12,330
+     
+     Total Features	18
+     
+     Target Variable	Revenue
+     
+     Task Type	Binary Classification
+     
+     Target Variable
 
 Revenue
 
