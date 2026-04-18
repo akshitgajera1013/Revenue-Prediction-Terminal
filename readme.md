@@ -5,6 +5,16 @@ https://revenue-prediction-terminal.streamlit.app/
 
 ---
 
+#UI
+
+![Output](images/1.png)
+
+![Output](images/2.png)
+
+![Output](images/3.png)
+
+
+
 # 📊 Project Overview
 
 The **E-Commerce Revenue Prediction Engine** is an end-to-end data science platform designed to analyze user behavior during online shopping sessions and predict whether a visitor will complete a purchase.
